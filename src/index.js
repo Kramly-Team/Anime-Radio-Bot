@@ -3,7 +3,7 @@ import {Client, Intents} from 'discord.js';
 
 //Init
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_PRESENCES, Intents.FLAGS.GUILD_MEMBERS, Intents.FLAGS.GUILD_EMOJIS_AND_STICKERS] });
-
+const config = require('./config.json')
 //Settings
 client.settings = {
     1: 'ayy',
@@ -32,7 +32,7 @@ client.on('guildMemberAdd', (member) => {
     member.guild.channels.cache.get(member.guild.systemChannelID).send(`Welcome ${member.user.tag}!`);
 });
 
-client.login('TOKEN');
+client.login(config.token);
 
 
 
