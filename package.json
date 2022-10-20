@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "discord.js": "^14.6.0"
+  },
+  "name": "anime-radio-bot",
+  "description": "Ein Discord.js Radio-Bot, welcher https://www.animeradio.de/ im Voice-Chat abspielt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kramly-Team/Anime-Radio-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kramly-Team/Anime-Radio-Bot/issues"
+  },
+  "homepage": "https://github.com/Kramly-Team/Anime-Radio-Bot#readme"
+}
